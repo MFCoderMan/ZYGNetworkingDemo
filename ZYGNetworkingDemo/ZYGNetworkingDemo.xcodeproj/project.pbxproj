@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EDF7E01CD9CD9400F4C2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF7DF1CD9CD9400F4C2C3 /* main.m */; };
+		02EDF7E31CD9CD9400F4C2C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF7E21CD9CD9400F4C2C3 /* AppDelegate.m */; };
+		02EDF7E61CD9CD9400F4C2C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF7E51CD9CD9400F4C2C3 /* ViewController.m */; };
+		02EDF7E91CD9CD9400F4C2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EDF7E71CD9CD9400F4C2C3 /* Main.storyboard */; };
+		02EDF7EB1CD9CD9400F4C2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EDF7EA1CD9CD9400F4C2C3 /* Assets.xcassets */; };
+		02EDF7EE1CD9CD9400F4C2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EDF7EC1CD9CD9400F4C2C3 /* LaunchScreen.storyboard */; };
+		02EDF7F91CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF7F81CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.m */; };
+		02EDF8041CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF8031CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.m */; };
+		02EDF8141CD9CF7900F4C2C3 /* ZYGNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EDF8131CD9CF7900F4C2C3 /* ZYGNetworking.m */; };
+		4173EB890A69C85A8B666157 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FE89A5BCF5D59123CAD864 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02EDF7F51CD9CD9400F4C2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02EDF7D31CD9CD9400F4C2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EDF7DA1CD9CD9400F4C2C3;
+			remoteInfo = ZYGNetworkingDemo;
+		};
+		02EDF8001CD9CD9400F4C2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02EDF7D31CD9CD9400F4C2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EDF7DA1CD9CD9400F4C2C3;
+			remoteInfo = ZYGNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EDF7DB1CD9CD9400F4C2C3 /* ZYGNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYGNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EDF7DF1CD9CD9400F4C2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02EDF7E11CD9CD9400F4C2C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02EDF7E21CD9CD9400F4C2C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02EDF7E41CD9CD9400F4C2C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02EDF7E51CD9CD9400F4C2C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02EDF7E81CD9CD9400F4C2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02EDF7EA1CD9CD9400F4C2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02EDF7ED1CD9CD9400F4C2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02EDF7EF1CD9CD9400F4C2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EDF7F41CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYGNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EDF7F81CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYGNetworkingDemoTests.m; sourceTree = "<group>"; };
+		02EDF7FA1CD9CD9400F4C2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EDF7FF1CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYGNetworkingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EDF8031CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYGNetworkingDemoUITests.m; sourceTree = "<group>"; };
+		02EDF8051CD9CD9400F4C2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EDF8121CD9CF7900F4C2C3 /* ZYGNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGNetworking.h; sourceTree = "<group>"; };
+		02EDF8131CD9CF7900F4C2C3 /* ZYGNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGNetworking.m; sourceTree = "<group>"; };
+		1A9232F15E286B504A1ECD1B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		467B133239CAC1D16758C746 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		87FE89A5BCF5D59123CAD864 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02EDF7D81CD9CD9400F4C2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4173EB890A69C85A8B666157 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7F11CD9CD9400F4C2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7FC1CD9CD9400F4C2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02EDF7D21CD9CD9400F4C2C3 = {
+			isa = PBXGroup;
+			children = (
+				02EDF7DD1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */,
+				02EDF7F71CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests */,
+				02EDF8021CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests */,
+				02EDF7DC1CD9CD9400F4C2C3 /* Products */,
+				60C058B6560BFEF7A35DA583 /* Pods */,
+				C65E3FAA9FE965B81F87D342 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02EDF7DC1CD9CD9400F4C2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF7DB1CD9CD9400F4C2C3 /* ZYGNetworkingDemo.app */,
+				02EDF7F41CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.xctest */,
+				02EDF7FF1CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02EDF7DD1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF8111CD9CF4300F4C2C3 /* ZYGNetworking */,
+				02EDF7E11CD9CD9400F4C2C3 /* AppDelegate.h */,
+				02EDF7E21CD9CD9400F4C2C3 /* AppDelegate.m */,
+				02EDF7E41CD9CD9400F4C2C3 /* ViewController.h */,
+				02EDF7E51CD9CD9400F4C2C3 /* ViewController.m */,
+				02EDF7E71CD9CD9400F4C2C3 /* Main.storyboard */,
+				02EDF7EA1CD9CD9400F4C2C3 /* Assets.xcassets */,
+				02EDF7EC1CD9CD9400F4C2C3 /* LaunchScreen.storyboard */,
+				02EDF7EF1CD9CD9400F4C2C3 /* Info.plist */,
+				02EDF7DE1CD9CD9400F4C2C3 /* Supporting Files */,
+			);
+			path = ZYGNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		02EDF7DE1CD9CD9400F4C2C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF7DF1CD9CD9400F4C2C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02EDF7F71CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF7F81CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.m */,
+				02EDF7FA1CD9CD9400F4C2C3 /* Info.plist */,
+			);
+			path = ZYGNetworkingDemoTests;
+			sourceTree = "<group>";
+		};
+		02EDF8021CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF8031CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.m */,
+				02EDF8051CD9CD9400F4C2C3 /* Info.plist */,
+			);
+			path = ZYGNetworkingDemoUITests;
+			sourceTree = "<group>";
+		};
+		02EDF8111CD9CF4300F4C2C3 /* ZYGNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				02EDF8121CD9CF7900F4C2C3 /* ZYGNetworking.h */,
+				02EDF8131CD9CF7900F4C2C3 /* ZYGNetworking.m */,
+			);
+			name = ZYGNetworking;
+			sourceTree = "<group>";
+		};
+		60C058B6560BFEF7A35DA583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A9232F15E286B504A1ECD1B /* Pods.debug.xcconfig */,
+				467B133239CAC1D16758C746 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C65E3FAA9FE965B81F87D342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FE89A5BCF5D59123CAD864 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02EDF7DA1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EDF8081CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemo" */;
+			buildPhases = (
+				1F8CB452E25B1CEA57AB377C /* Check Pods Manifest.lock */,
+				02EDF7D71CD9CD9400F4C2C3 /* Sources */,
+				02EDF7D81CD9CD9400F4C2C3 /* Frameworks */,
+				02EDF7D91CD9CD9400F4C2C3 /* Resources */,
+				CC0EB97DA5E4248433E4847E /* Embed Pods Frameworks */,
+				4161B73E70CF89CBDAD259F6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYGNetworkingDemo;
+			productName = ZYGNetworkingDemo;
+			productReference = 02EDF7DB1CD9CD9400F4C2C3 /* ZYGNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02EDF7F31CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EDF80B1CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemoTests" */;
+			buildPhases = (
+				02EDF7F01CD9CD9400F4C2C3 /* Sources */,
+				02EDF7F11CD9CD9400F4C2C3 /* Frameworks */,
+				02EDF7F21CD9CD9400F4C2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02EDF7F61CD9CD9400F4C2C3 /* PBXTargetDependency */,
+			);
+			name = ZYGNetworkingDemoTests;
+			productName = ZYGNetworkingDemoTests;
+			productReference = 02EDF7F41CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02EDF7FE1CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EDF80E1CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemoUITests" */;
+			buildPhases = (
+				02EDF7FB1CD9CD9400F4C2C3 /* Sources */,
+				02EDF7FC1CD9CD9400F4C2C3 /* Frameworks */,
+				02EDF7FD1CD9CD9400F4C2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02EDF8011CD9CD9400F4C2C3 /* PBXTargetDependency */,
+			);
+			name = ZYGNetworkingDemoUITests;
+			productName = ZYGNetworkingDemoUITests;
+			productReference = 02EDF7FF1CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02EDF7D31CD9CD9400F4C2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhangYunguang;
+				TargetAttributes = {
+					02EDF7DA1CD9CD9400F4C2C3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					02EDF7F31CD9CD9400F4C2C3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 02EDF7DA1CD9CD9400F4C2C3;
+					};
+					02EDF7FE1CD9CD9400F4C2C3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 02EDF7DA1CD9CD9400F4C2C3;
+					};
+				};
+			};
+			buildConfigurationList = 02EDF7D61CD9CD9400F4C2C3 /* Build configuration list for PBXProject "ZYGNetworkingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02EDF7D21CD9CD9400F4C2C3;
+			productRefGroup = 02EDF7DC1CD9CD9400F4C2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02EDF7DA1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */,
+				02EDF7F31CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests */,
+				02EDF7FE1CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02EDF7D91CD9CD9400F4C2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EDF7EE1CD9CD9400F4C2C3 /* LaunchScreen.storyboard in Resources */,
+				02EDF7EB1CD9CD9400F4C2C3 /* Assets.xcassets in Resources */,
+				02EDF7E91CD9CD9400F4C2C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7F21CD9CD9400F4C2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7FD1CD9CD9400F4C2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8CB452E25B1CEA57AB377C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4161B73E70CF89CBDAD259F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0EB97DA5E4248433E4847E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02EDF7D71CD9CD9400F4C2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EDF8141CD9CF7900F4C2C3 /* ZYGNetworking.m in Sources */,
+				02EDF7E61CD9CD9400F4C2C3 /* ViewController.m in Sources */,
+				02EDF7E31CD9CD9400F4C2C3 /* AppDelegate.m in Sources */,
+				02EDF7E01CD9CD9400F4C2C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7F01CD9CD9400F4C2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EDF7F91CD9CD9400F4C2C3 /* ZYGNetworkingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EDF7FB1CD9CD9400F4C2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EDF8041CD9CD9400F4C2C3 /* ZYGNetworkingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02EDF7F61CD9CD9400F4C2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02EDF7DA1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */;
+			targetProxy = 02EDF7F51CD9CD9400F4C2C3 /* PBXContainerItemProxy */;
+		};
+		02EDF8011CD9CD9400F4C2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02EDF7DA1CD9CD9400F4C2C3 /* ZYGNetworkingDemo */;
+			targetProxy = 02EDF8001CD9CD9400F4C2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02EDF7E71CD9CD9400F4C2C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02EDF7E81CD9CD9400F4C2C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02EDF7EC1CD9CD9400F4C2C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02EDF7ED1CD9CD9400F4C2C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02EDF8061CD9CD9400F4C2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02EDF8071CD9CD9400F4C2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02EDF8091CD9CD9400F4C2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9232F15E286B504A1ECD1B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYGNetworkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02EDF80A1CD9CD9400F4C2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467B133239CAC1D16758C746 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYGNetworkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02EDF80C1CD9CD9400F4C2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYGNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYGNetworkingDemo.app/ZYGNetworkingDemo";
+			};
+			name = Debug;
+		};
+		02EDF80D1CD9CD9400F4C2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYGNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYGNetworkingDemo.app/ZYGNetworkingDemo";
+			};
+			name = Release;
+		};
+		02EDF80F1CD9CD9400F4C2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYGNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYGNetworkingDemo;
+			};
+			name = Debug;
+		};
+		02EDF8101CD9CD9400F4C2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYGNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYGNetworkingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EDF7D61CD9CD9400F4C2C3 /* Build configuration list for PBXProject "ZYGNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EDF8061CD9CD9400F4C2C3 /* Debug */,
+				02EDF8071CD9CD9400F4C2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EDF8081CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EDF8091CD9CD9400F4C2C3 /* Debug */,
+				02EDF80A1CD9CD9400F4C2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EDF80B1CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EDF80C1CD9CD9400F4C2C3 /* Debug */,
+				02EDF80D1CD9CD9400F4C2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EDF80E1CD9CD9400F4C2C3 /* Build configuration list for PBXNativeTarget "ZYGNetworkingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EDF80F1CD9CD9400F4C2C3 /* Debug */,
+				02EDF8101CD9CD9400F4C2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02EDF7D31CD9CD9400F4C2C3 /* Project object */;
+}
